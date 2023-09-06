@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    background-color: white;
+   
+}
+
+#container{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    width: 550px;
+    background: #1d2f6f;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 115px 52px;
+}
+
+
+
+
+#title{
+    font-family:'Montserrat', sans-serif;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    text-align: left;
+    color: #FFFFFF;
+    width: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.title-deco{
+    color: #A78BFA;
+}
+
+.subtitle{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 0px;
+    margin-bottom: 51px;
+}
+
+#Password-Generate-Btn{
+    cursor: pointer;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+    background-color: #A78BFA;
+    border: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding: 9px 17px 9px 15px;
+    border-radius: 6px;
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+
+
+#line{
+   border: 1px solid white;
+   width: 446px;
+   margin-top: 0;
+   margin-bottom: 35px;
+}
+
+#password-displays-container{
+    display: flex;
+    justify-content: space-between
+}
+
+.password-display{
+    cursor: pointer;
+    width: 211px;
+    height: 39px;
+    font-size: 16px;
+    border-radius: 6px;
+    background: white;
+    border: none;
+    margin-top: 0;
+    text-align: center;
+    color: #f72585;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
